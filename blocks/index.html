@@ -22,16 +22,6 @@
         </div>
         <!-- Profile  -->
         <div class="profileMenu">
-            <img class="addButton" src="img/add.png" alt="Owl Image" id="agregar">
-
-            <img class="removeButton" src="img/remove.png" alt="Owl Image" id="borrar">
-
-            <!--  Imagen   -->
-
-            <img id="imgProfile" class="img-responsive img-thumbnail profilePic"   src="images/avatar.png">
-
-            <b id="etqUsername" class="Username" >An&oacute;nimo</b>
-
             <div class="btn-group mnuInicio">
                 <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
                     Menu <span class="caret"></span>
@@ -55,6 +45,12 @@
 
                 </ul>
             </div>
+            <img class="addButton" src="img/add.png" alt="Owl Image" id="agregar">
+
+            <img class="removeButton" src="img/remove.png" alt="Owl Image" id="borrar">
+
+
+
 
 
 
@@ -300,19 +296,19 @@
 
 </body>
 
-<script src='js/jquery-1.11.1.js'></script> 
-<script src='js/bootstrap.min.js'></script> 
-<script src="js/three.js"></script> 
-<script src='js/howler.js'></script> 
-<script src="js/Detector.js"></script> 
-<script src="js/OrbitControls.js"></script> 
-<script src="js/STLExporter.js"></script> 
-<script src="js/FileSaver.js"></script> 
-<script src="js/ObjectExporter.js"></script> 
-<script src="js/OBJExporter.js"></script> 
-<script src='js/dat.gui.min.js'></script> 
-<script src='js/ThreeCSG.js'></script> 
-<script src='js/jquery.nouislider.min.js'></script> 
+<script src='js/jquery-1.11.1.js'></script>
+<script src='js/bootstrap.min.js'></script>
+<script src="js/three.js"></script>
+<script src='js/howler.js'></script>
+<script src="js/Detector.js"></script>
+<script src="js/OrbitControls.js"></script>
+<script src="js/STLExporter.js"></script>
+<script src="js/FileSaver.js"></script>
+<script src="js/ObjectExporter.js"></script>
+<script src="js/OBJExporter.js"></script>
+<script src='js/dat.gui.min.js'></script>
+<script src='js/ThreeCSG.js'></script>
+<script src='js/jquery.nouislider.min.js'></script>
 <script src="js/STLLoader.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/spectrum.js"></script>
@@ -346,7 +342,7 @@
                             var url = "http://www.colibri3d.com/admin/3dusr/"+folder+"/"+avatar;
                             $('#etqUsername').text(username);
                             $('#imgProfile').attr("src", url);
-                            $("#btnSesion").val('Cerrar sesión');
+                            $("#btnSesion").val('Cerrar sesiï¿½n');
 
                         }*/
 
@@ -994,7 +990,7 @@ function init() {
 
 
 	$("#btnSesion").on('click',function (ev){
-		if($('#etqUsername').text().search("Anónimo")!= -1){
+		if($('#etqUsername').text().search("Anï¿½nimo")!= -1){
 
              $('#mensajePassword').text("");
              $('#mensajeCorreo').text("");
@@ -1004,9 +1000,9 @@ function init() {
         }
         else
         {
-            $('#etqUsername').text("Anónimo");
+            $('#etqUsername').text("Anï¿½nimo");
             $('#imgProfile').attr("src", "images/avatar.png");
-            $('#btnSesion').val('Iniciar Sesión');
+            $('#btnSesion').val('Iniciar Sesiï¿½n');
              window.Android.CerrarSesion();
 
         }
@@ -1061,7 +1057,7 @@ function init() {
         	$('#botonIniciar').removeAttr("disabled");
         }
         else {
-            /*si el correo y contraseña son correctas */
+            /*si el correo y contraseï¿½a son correctas */
             $('#botonIniciar').removeAttr("disabled");
            $("#btnSesion").val('Cerrar sesion');
         	var url = "http://www.colibri3d.com/admin/3dusr/"+result.folder+"/"+result.avatar;
@@ -2205,4 +2201,3 @@ function controlDeSonido()
 
 
 </html>
-

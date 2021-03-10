@@ -1,14 +1,14 @@
 
 /* ---- External Overrides ---- */
-	body { 
+	body {
 		margin: 0px;
-		
+
 		height:100%;
 		overflow:hidden;
 	}
 
 	html,.container-fluid
-	{	
+	{
 	    height:100%;
 	}
 
@@ -18,9 +18,9 @@
 	}
 
 	.panel-body{
-		padding:10px;		
+		padding:10px;
 	}
-	 
+
 	#viewportContainer{
 		height: 100%;
 		top: 0px;
@@ -87,50 +87,50 @@
 	}
 
 	/* TO-REFACTOR */
-		.toggle-btn-grp { 
-		    margin:3px 0; 
+		.toggle-btn-grp {
+		    margin:3px 0;
 		}
-		.toggle-btn { 
-		    text-align:centre; 
+		.toggle-btn {
+		    text-align:centre;
 		    margin:4px 4px;
 		    padding:0.2em;
-		    color:#000; 
-		    background-color:#FFF; 
-		    border-radius:5px; 
-		    display:inline-block; 
-		    border:solid 1px #CCC; 
+		    color:#000;
+		    background-color:#FFF;
+		    border-radius:5px;
+		    display:inline-block;
+		    border:solid 1px #CCC;
 		    cursor:pointer;
 		    -webkit-box-shadow: 1px 1px 3px 1px #BCBCBC;
 			box-shadow: 1px 1px 3px 1px #BCBCBC;
 		}
 
-		.toggle-btn:hover { 
-		    border:solid 1px #a0d5dc !important; 
+		.toggle-btn:hover {
+		    border:solid 1px #a0d5dc !important;
 		    background:#f1fdfe;
 		}
 
-		.toggle-btn.success { 
+		.toggle-btn.success {
 		    background:lightblue;
-		    border:solid 1px green !important; 
+		    border:solid 1px green !important;
 		}
 
-		.visuallyhidden { 
-		    border: 0; 
-		    clip: rect(0 0 0 0); 
-		    height: 1px; 
-		    margin: -1px; 
-		    overflow: hidden; 
-		    padding: 0; 
-		    position: absolute; 
-		    width: 1px; 
+		.visuallyhidden {
+		    border: 0;
+		    clip: rect(0 0 0 0);
+		    height: 1px;
+		    margin: -1px;
+		    overflow: hidden;
+		    padding: 0;
+		    position: absolute;
+		    width: 1px;
 		}
-		.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { 
-		    clip: auto; 
-		    height: auto; 
-		    margin: 0; 
-		    overflow: visible; 
-		    position: static; 
-		    width: auto; 
+		.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+		    clip: auto;
+		    height: auto;
+		    margin: 0;
+		    overflow: visible;
+		    position: static;
+		    width: auto;
 		}
 
 		.ps{
@@ -164,10 +164,10 @@
 	 .innerCameraControls{
 	  padding-left: 0;
 	  padding-right: 10px;
-	     color:#000; 
-	     background-color:#FFF; 
-	  border-radius:99px; 
-	     display:inline-block; 
+	     color:#000;
+	     background-color:#FFF;
+	  border-radius:99px;
+	     display:inline-block;
 	  border:1px solid #343434;
 	     cursor:pointer;
 	  /* opacity: 1;
@@ -333,7 +333,7 @@
 		filter: alpha(opacity=85);
 		display: none;
 	}
-		
+
 	.viewportControls{
 		-webkit-border-radius: 10px 10px 10px 10px;
 		border-radius: 10px 10px 10px 10px;
@@ -355,7 +355,7 @@
 		border: 2px solid #ddd;
 
 		width: 275px;
-		
+
 		right: 0px;
 		background-color: #f0f0f0;
 		opacity: 0.85;
@@ -418,7 +418,7 @@
 	.properties-bar div[class*="col-"]{
 		margin-bottom: 5px;
 	}
-	
+
 	.material-carousel{
 		margin: 15px ;
 		padding: 5px;
@@ -441,25 +441,25 @@
 		display:none;
 	}
 
-/* Button Classes */ 
+/* Button Classes */
 	.round-button{
-		text-align:centre; 
+		text-align:centre;
 	    margin:4px 4px;
 	    padding:0.2em;
-	    color:#000; 
-	    background-color:#FFF; 
-	    border-radius:5px; 
-	    display:inline-block; 
-	    border:solid 1px #CCC; 
+	    color:#000;
+	    background-color:#FFF;
+	    border-radius:5px;
+	    display:inline-block;
+	    border:solid 1px #CCC;
 	    cursor:pointer;
 	    -webkit-box-shadow: 1px 1px 3px 1px #BCBCBC;
 		box-shadow: 1px 1px 3px 1px #BCBCBC;
 	}
 
 	.objects-bar-showButton{
-		position: absolute; 
-		top:70px; 
-		right: -30px; 
+		position: absolute;
+		top:70px;
+		right: -30px;
 		background-color: #f0f0f0;
 		font-weight: bold;
 	}
@@ -471,31 +471,31 @@
 
 	.toolbar-showButton{
 		font-weight: bold;
-		position: absolute; 
-		left: -50px;	
-		top: 195px; 
+		position: absolute;
+		left: -50px;
+		top: 195px;
 		background-color: #f0f0f0;
 	}
 
 	.toolbar-hideButton{
 		font-weight: bold;
-		padding:0px; 
-		margin:0px; 
+		padding:0px;
+		margin:0px;
 		margin-left:-6px;
 	}
-	
+
 	.properties-bar-showButton{
 		font-weight: bold;
-		position: absolute; 
-		bottom: 0px; 
-		left: 60%; 
+		position: absolute;
+		bottom: 0px;
+		left: 60%;
 		background-color: #f0f0f0;
 	}
 
 	.properties-bar-hideButton{
 		font-weight: bold;
 		float:right !important;
-		padding-top:8px; 
+		padding-top:8px;
 		padding-right:15px;
 	}
 	.splash {
@@ -532,9 +532,7 @@ color: #4B93CC;
 
 .mnuInicio{
     -webkit-backface-visibility: hidden;
-	left:70%;
-	top:30%;
-	position: absolute;
+	/* left:50px; */
 	opacity: 0.85;
 	filter: alpha(opacity=85);
 }
@@ -567,28 +565,10 @@ color: #4B93CC;
     display: block;
 }
 
-.dropdown-submenu>a:after {
-    display: block;
-    content: " ";
-    float: leftS;
-    width: 0;
-    height: 0;
-    border-color: transparent;
-    border-style: solid;
-    border-width: 5px 0 5px 5px;
-    border-left-color: #ccc;
-    margin-top: 5px;
-    margin-right: -10px;
-}
-
-.dropdown-submenu:hover>a:after {
-    border-left-color: #fff;
-}
-
   #owl-demo .item{
     margin: 3px;
   }
-  
+
   #owl-demo .item img{
     display:block;
     height: 50px;
@@ -646,7 +626,7 @@ color: #4B93CC;
 		background-color: #f0f0f0;
 		-webkit-border-radius: 5px 5px 5px 5px;
 		border-radius: 5px 5px 5px 5px;
-		
+
 	}
 
 	.colorpicker-container .sp-palette{
