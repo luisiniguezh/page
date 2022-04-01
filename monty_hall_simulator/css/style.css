@@ -1,0 +1,28 @@
+.game {
+  float: left;
+  clear: left;
+}
+
+.selected {
+  color: green;
+}
+
+.shown {
+  color: red;
+}
+
+.switched {
+  color: blue;
+}
+
+.won {
+  background: green;
+}
+
+.lost {
+  background: red;
+}
+
+.result {
+  background: gray;
+}

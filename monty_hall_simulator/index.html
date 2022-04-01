@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <script src="js/main.js"></script>
+
+  <p>
+    A <a href="https://en.wikipedia.org/wiki/Monty_Hall_problem" target="_blank">Monty Hall problem</a> simulator
+  </p>
+  <p>
+    the <span class="selected">selected</span> value is chosen at random, the <span class="shown">shown</span> value is
+    selected randomly from the non selected goats and <span class="switched">switched</span> is the value that hasn't
+    been selected previously or shown
+  </p>
+  <p>
+    Simulate a
+    <input name="simulations_qty" type="text" placeholder="number of simulations 1>=n<=10000" value="100" onblur="getSimulationsQty()">
+    times
+    <input type="button" value="Run" onclick="executeMontyHall();" />
+  </p>
+
+  <div id="visualization" style="width: 300px; float:left; background:lightgray; margin:10px">
+    Without switching door
+    <p id="result" class="result"></p>
+    <div id="visualization_result"></div>
+  </div>
+  <div id="visualization2" style="width: 300px; float:left; background:lightgray; margin:10px">
+    With switching door
+    <p id="result2" class="result"></p>
+    <div id="visualization_result2"></div>
+  </div>
+
+</body>
+
+</html>
